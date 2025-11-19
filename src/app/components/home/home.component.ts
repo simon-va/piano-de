@@ -120,7 +120,7 @@ import { ProductCardComponent } from '../product-card/product-card.component';
     </section>
 
     <!-- Service Section -->
-    <section class="service-section">
+    <section class="service-section" id="service">
       <div class="container">
         <h2 class="section-title">Unser Service</h2>
         <div class="service-grid">
@@ -165,7 +165,7 @@ import { ProductCardComponent } from '../product-card/product-card.component';
     </section>
 
     <!-- Contact Section -->
-    <section class="contact-section">
+    <section class="contact-section" id="kontakt">
       <div class="container">
         <h2 class="section-title">Besuche uns</h2>
         <div class="contact-grid">
