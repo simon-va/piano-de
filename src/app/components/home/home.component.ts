@@ -24,7 +24,13 @@ import { ProductCardComponent } from '../product-card/product-card.component';
       <div class="container">
         <div class="action-cards-grid">
           <a routerLink="/pianobuehne" class="action-card">
-            <div class="action-card-icon">🎹</div>
+            <div class="action-card-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 32V16C4 14.8954 4.89543 14 6 14H42C43.1046 14 44 14.8954 44 16V32C44 33.1046 43.1046 34 42 34H6C4.89543 34 4 33.1046 4 32Z" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 14V34M16 14V34M22 14V34M28 14V34M34 14V34M40 14V34" stroke="#c5a572" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 14V28M18 14V28M30 14V28M36 14V28" stroke="#c5a572" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
             <div class="action-card-content">
               <h3>Pianobühne</h3>
               <p>Erlebe Live-Konzerte und besondere Auftritte auf unserer Bühne</p>
@@ -33,7 +39,13 @@ import { ProductCardComponent } from '../product-card/product-card.component';
           </a>
           
           <a routerLink="/konzertberichte" class="action-card">
-            <div class="action-card-icon">📰</div>
+            <div class="action-card-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 6C8 4.89543 8.89543 4 10 4H30L40 14V42C40 43.1046 39.1046 44 38 44H10C8.89543 44 8 43.1046 8 42V6Z" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M30 4V14H40" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 24H32M16 32H32M16 40H26" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
             <div class="action-card-content">
               <h3>Konzertberichte</h3>
               <p>Berichte und Impressionen vergangener Veranstaltungen</p>
@@ -113,22 +125,49 @@ import { ProductCardComponent } from '../product-card/product-card.component';
         <h2 class="section-title">Unser Service</h2>
         <div class="service-grid">
           <div class="service-card">
-            <div class="service-icon">🚚</div>
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 18L24 6L44 18V32L24 44L4 32V18Z" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 18L24 30M24 30L44 18M24 30V44" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14 13L24 19L34 13" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
             <h3>Lieferung & Aufbau</h3>
             <p>Professionelle Lieferung und fachgerechter Aufbau bei dir zu Hause.</p>
           </div>
           <div class="service-card">
-            <div class="service-icon">🎵</div>
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 4C24 4 18 8 18 14C18 18 20 20 24 20C28 20 30 18 30 14C30 8 24 4 24 4Z" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M24 20V44" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 26C12 26 8 28 8 32C8 36 10 38 12 38" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M36 26C36 26 40 28 40 32C40 36 38 38 36 38" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 32H32" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
             <h3>Stimmservice</h3>
             <p>Regelmäßige Wartung und Stimmung durch erfahrene Klavierbauer.</p>
           </div>
           <div class="service-card">
-            <div class="service-icon">💰</div>
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="18" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M24 12V24L32 28" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M18 8C18 8 14 6 12 6C10 6 8 8 8 10C8 12 10 14 12 14C14 14 18 12 18 12" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M30 8C30 8 34 6 36 6C38 6 40 8 40 10C40 12 38 14 36 14C34 14 30 12 30 12" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
             <h3>Finanzierung</h3>
             <p>Flexible Finanzierungsmöglichkeiten für dein Trauminstrument.</p>
           </div>
           <div class="service-card">
-            <div class="service-icon">🔄</div>
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 24C8 24 12 16 24 16C36 16 40 24 40 24C40 24 36 32 24 32C12 32 8 24 8 24Z" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="24" cy="24" r="4" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14 10L10 6M34 10L38 6M6 18H2M46 18H42M6 30H2M46 30H42M14 38L10 42M34 38L38 42" stroke="#c5a572" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
             <h3>Inzahlungnahme</h3>
             <p>Wir nehmen dein altes Instrument fair in Zahlung.</p>
           </div>
@@ -259,10 +298,12 @@ import { ProductCardComponent } from '../product-card/product-card.component';
     }
 
     .action-card-icon {
-      font-size: 3rem;
       flex-shrink: 0;
       position: relative;
       z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .action-card-content {
@@ -378,7 +419,9 @@ import { ProductCardComponent } from '../product-card/product-card.component';
     }
 
     .service-icon {
-      font-size: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin-bottom: 1rem;
     }
 
