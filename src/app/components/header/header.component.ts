@@ -57,10 +57,10 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
               </ul>
             </li>
             <li>
-              <a routerLink="/service" routerLinkActive="active">Service</a>
+              <a [routerLink]="['/']" fragment="service">Service</a>
             </li>
             <li>
-              <a routerLink="/kontakt" routerLinkActive="active">Kontakt</a>
+              <a [routerLink]="['/']" fragment="kontakt">Kontakt</a>
             </li>
           </ul>
         </nav>
